@@ -1,10 +1,13 @@
-
 import './App.css';
+import MainContainer from './container/MainContainer';
+import styled from 'styled-components';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome on border</h1>
+    
+      <MainContainer/>
     </div>
   );
 }
