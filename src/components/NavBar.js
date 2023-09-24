@@ -9,13 +9,20 @@ justify-content: center;
 `
 
 const NavarLink = styled(Link)`
+position: relative;
+display: inline-flex;
 text-decoration: none;
 margin: 1em;
 color: black;
 border-bottom: 1px;
-
+cursor: pointer;
+box-shadow: 6px 6px 0px rgba(82, 82, 82, 0.25);
+transition: all 0.3s
+font-family: "chill", sans-serif;
+background-color: #D8D9DA;
 &:hover{
     box-shadow: 1px 3px grey;
+    background:#E5E5E5;
 }
 `
 
